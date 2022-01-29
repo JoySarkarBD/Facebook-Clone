@@ -1,0 +1,42 @@
+@media (max-width: 1170px) {
+  .search {
+    height: 40px;
+    width: 40px;
+  }
+  .search input {
+    display: none;
+  }
+  .profile_section ul li:nth-child(1),
+  .profile_section ul li:nth-child(2) {
+    display: none;
+  }
+  .profile_section ul li:nth-child(3) {
+    display: flex;
+  }
+  nav ul li:last-child {
+    display: flex;
+  }
+  .groups {
+    display: none;
+  }
+  .left_side {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  nav {
+    display: none;
+  }
+  .menu_toggler {
+    display: flex;
+  }
+  .menu_toggler span {
+    color: white;
+    font: 25px;
+    margin-left: 15px;
+  }
+  .right_side {
+    display: none;
+  }
+}
